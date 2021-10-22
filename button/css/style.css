@@ -1,0 +1,18 @@
+.btn{
+  display: block;
+  width: 160px;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background: #0C88CA;
+  border: 1px solid #000;
+  border-bottom: 4px solid #005691;
+  transition: .0s;
+}
+.btn:hover{
+  background: #005691;
+  transform:translate3d(0,9px,0);
+  transition: .0s;
+  border-bottom: none;
+}
