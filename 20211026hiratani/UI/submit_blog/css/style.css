@@ -132,7 +132,14 @@ body {
   display: flex;
 }
 .header-nav__list {
+  font-weight: bold;
   cursor: pointer;
+}
+.header--title:hover,
+.header-nav__list:hover,
+.main--inquiry__button:hover,
+.fotter-nav__list:hover {
+  opacity: 0.5;
 }
 .header-nav__list:not(:last-child) {
   margin-right: 30px;
