@@ -50,7 +50,7 @@
 .main__blog--contents-text:hover {
   opacity: 0.5;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 785px) {
   .wrapper--blog {
     flex-direction: column;
   }

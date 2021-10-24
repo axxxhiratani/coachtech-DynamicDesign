@@ -30,7 +30,7 @@
   font-size: 25px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 785px) {
   .main__box {
     flex-direction: column;
     justify-content: flex-center;
