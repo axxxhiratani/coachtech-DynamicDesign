@@ -118,7 +118,7 @@ body {
   background-color: #fff;
 }
 .header--title {
-  width: 100px;
+  width: 70px;
   padding: 15px 20px;
   cursor: pointer;
 }
@@ -141,6 +141,8 @@ body {
 .header-nav__list > a {
   color: inherit;
   text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
 }
 
 .header--drawnav {
