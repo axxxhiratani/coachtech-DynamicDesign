@@ -2,7 +2,7 @@
 <html lang="ja" dir="ltr">
   <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>株式会社TECH</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/contact.css" />
     <link rel="stylesheet" href="css/reset.css" />
@@ -17,7 +17,9 @@
   <body>
     <header class="header">
       <div class="header--title">
-        <img src="img/logo.png" alt="" />
+        <a href="index.html">
+          <img src="img/logo.png" alt="" />
+        </a>
       </div>
 
       <nav class="header-nav">
@@ -37,13 +39,23 @@
 
     <nav class="nav--draw" id="nav">
       <ul>
-        <li><a href="index.html">ホーム</a></li>
-        <li><a href="service.html">事業内容</a></li>
-        <li><a href="news.html">ニュース</a></li>
-        <li><a href="blog.html">社員ブログ</a></li>
-        <li><a href="company.html">会社概要</a></li>
-        <li><a href="recruit.html">採用情報</a></li>
-        <li><a href="contact.html">お問い合わせ</a></li>
+        <li class="header-nav__list draw"><a href="index.html">ホーム</a></li>
+        <li class="header-nav__list draw">
+          <a href="service.html">事業内容</a>
+        </li>
+        <li class="header-nav__list draw"><a href="news.html">ニュース</a></li>
+        <li class="header-nav__list draw">
+          <a href="blog.html">社員ブログ</a>
+        </li>
+        <li class="header-nav__list draw">
+          <a href="company.html">会社概要</a>
+        </li>
+        <li class="header-nav__list draw">
+          <a href="recruit.html">採用情報</a>
+        </li>
+        <li class="header-nav__list draw">
+          <a href="contact.html">お問い合わせ</a>
+        </li>
       </ul>
     </nav>
     <div class="menu" id="menu">
@@ -70,7 +82,12 @@
                 お名前
                 <span class="form-item-label-required">*</span>
               </p>
-              <input type="text" name="name" class="form-item-input" />
+              <input
+                type="text"
+                name="name"
+                class="form-item-input"
+                required="required"
+              />
             </div>
 
             <div class="form-item">
@@ -78,7 +95,12 @@
                 メールアドレス
                 <span class="form-item-label-required">*</span>
               </p>
-              <input type="text" name="mail" class="form-item-input" />
+              <input
+                type="email"
+                name="mail"
+                class="form-item-input"
+                required="required"
+              />
             </div>
 
             <div class="form-item">
@@ -86,8 +108,11 @@
                 お問い合わせ内容
                 <span class="form-item-label-required">*</span>
               </p>
-              <textarea type="text" name="text" class="form-item-textarea">
-              </textarea>
+              <textarea
+                name="textarea"
+                required=""
+                class="form-item-textarea"
+              ></textarea>
             </div>
 
             <input type="submit" class="form-btn" value="お申し込み" />

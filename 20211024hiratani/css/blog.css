@@ -24,7 +24,7 @@
   width: 100%;
 }
 
-.main__blog--img > img {
+.main__blog--img > a > img {
   width: 100%;
   cursor: pointer;
 }
@@ -42,6 +42,7 @@
 }
 
 .main__blog--contents-text {
+  color: #000;
   font-weight: bold;
   font-size: 17px;
   cursor: pointer;

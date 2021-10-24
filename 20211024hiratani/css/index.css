@@ -31,8 +31,6 @@
   font-size: 30px;
 }
 
-.main__box:first-child {
-}
 .main-contents__img {
   width: 100%;
 }
@@ -90,7 +88,7 @@
   text-align: center;
 }
 .main__news--item {
-  width: 100%;
+  width: 98.5%;
   border: 1px #000 solid;
   padding: 25px 0px;
   padding-left: 15px;
@@ -151,7 +149,7 @@
   width: 100%;
 }
 
-.main__blog--img > img {
+.main__blog--img > a > img {
   width: 100%;
   cursor: pointer;
 }
@@ -169,6 +167,7 @@
 }
 
 .main__blog--contents-text {
+  color: #000;
   font-weight: bold;
   font-size: 17px;
   cursor: pointer;
